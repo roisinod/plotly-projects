@@ -1,5 +1,5 @@
 #######
-# Objective: Create a stacked bar chart from
+# Objective: Create a bar chart from
 # the file ../data/mocksurvey.csv. Note that questions appear in
 # the index (and should be used for the x-axis), while responses
 # appear as column labels.  Extra Credit: make a horizontal bar chart!

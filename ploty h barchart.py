@@ -11,7 +11,7 @@ import plotly.graph_objs as go
 import pandas as pd
 import plotly.express as px
 # create a DataFrame from the .csv file:
-df = pd.read_csv('mocksurvey.txt')
+df = pd.read_csv('mocksurvey.txt',index_col=0)
 print(df.head())
 print(df.columns)
 # create traces using a list comprehension:
